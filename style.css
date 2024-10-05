@@ -129,12 +129,18 @@ strong,span{
  -webkit-text-stroke: 1px #097bbf;
  -webkit-text-fill-color: transparent;
 }
-.card{
+.card {
     box-shadow: 0 3px 10px 0 rgba(0,0,0,.1);
     overflow-x: hidden;
     margin-bottom: 30px;
     padding: 15px 30px 30px 30px;
     background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Move the card up on hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
 }
 .card > p{
     color: #0e141e;
