@@ -1,2 +1,3 @@
 # kdot-mi.github.io
-https://kdot-mi.github.io/
+https://thurmond-guy.github.io/
+
